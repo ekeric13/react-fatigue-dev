@@ -6,7 +6,7 @@ Module of modules and Makefile to reduce the amount of boilerplate when developi
 ## Installation
 
 ```
-$ npm install tj/react-fatigue-dev
+$ npm install ekeric13/react-fatigue-dev
 ```
 
 ## Usage
