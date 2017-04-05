@@ -28,7 +28,7 @@ SERVER_FLAGS = -p 8000 ./test
 include node_modules/react-fatigue-dev/Makefile
 ```
 
-Check out [react-click-outside](https://github.com/tj/react-click-outside) for a full example.
+Check out [react-click-outside](https://github.com/tj/react-click-outside) or [react-star-ratings](https://github.com/ekeric13/react-star-ratings) for a full example.
 
 ## Includes
 
