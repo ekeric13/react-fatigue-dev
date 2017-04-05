@@ -1,7 +1,7 @@
 
 BIN_DIR ?= node_modules/.bin
 BUILD_DIR ?= build
-SRC ?= index.js
+SRC ?= src
 
 BUILD_FLAGS ?= --out-dir
 SERVER_FLAGS ?= -p 3000 example
