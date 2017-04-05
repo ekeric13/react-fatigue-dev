@@ -1,6 +1,7 @@
 
 BIN_DIR ?= node_modules/.bin
 BUILD_DIR ?= build/
+BUILD_FILES ?= build/
 SRC ?= src/
 
 BUILD_FLAGS ?= --out-dir
@@ -19,7 +20,7 @@ build: export NODE_ENV = production
 build:
 	@echo "  $(P) build"
 	@$(BIN_DIR)/babel $(BUILD_FLAGS) $(BUILD_DIR) $(SRC)
-	@rm -rf $(BUILD_DIR) && mkdir $(BUILD_DIR) && $(BIN_DIR)/babel $(SRC) $(BUILD_FLAGS) $(BUILD_DIR)
+	@rm -rf $(BUILD_DIR) && mkdir $(BUILD_DIR) && $(BIN_DIR)/babel $(SRC) $(BUILD_FLAGS) $(BUILD_FILES)
 
 start:
 	@$(MAKE) serve & $(MAKE) watch
