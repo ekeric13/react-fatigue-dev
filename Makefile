@@ -19,7 +19,6 @@ help:
 build: export NODE_ENV = production
 build:
 	@echo "  $(P) build"
-	@$(BIN_DIR)/babel $(BUILD_FLAGS) $(BUILD_DIR) $(SRC)
 	@rm -rf $(BUILD_DIR) && mkdir $(BUILD_DIR) && $(BIN_DIR)/babel $(SRC) $(BUILD_FLAGS) $(BUILD_FILES)
 
 start:
