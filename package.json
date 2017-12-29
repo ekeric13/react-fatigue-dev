@@ -26,7 +26,7 @@
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
     "browserify-hmr": "^0.3.1",
-    "ecstatic": "^1.4.0",
+    "ecstatic": "^2.0.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
     "react-transform": "0.0.3",
